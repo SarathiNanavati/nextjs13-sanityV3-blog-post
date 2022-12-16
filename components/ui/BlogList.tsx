@@ -9,7 +9,6 @@ type BlogListProps = {
 };
 
 const BlogList = ({ posts }: BlogListProps) => {
-  console.log(posts);
   return (
     <div>
       <hr className='border-[#52daf2] mb-10' />

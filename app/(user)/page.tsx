@@ -5,6 +5,8 @@ import PreviewSuspense from "../../components/PreviewSuspense";
 import BlogList from "../../components/ui/BlogList";
 import PreviewBlogList from "../../components/PreviewBlogList";
 
+export const revalidate = 600;
+
 const query = groq`
   *[_type =="post" ]{
     ...,
